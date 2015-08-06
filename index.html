@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Loup's (Bootstrap version)</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,15 +12,137 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/styles.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
+        <!-- jquery -->        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </head>
+    
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container">
+            <h1>@Loup's</h1>
+
+            <div class="row">
+                <div class="col-sm-3" id="side-bar">
+                    <h2>Home</h2>
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-open">
+                            <a data-toggle="collapse" href="#articles-body">
+                                articles/
+                            </a>
+                        </div>
+                        <div class="panel-body collapse" id="articles-body">
+                            <ul>
+                                <li>beliefs respect and facts</li>
+                                <li>classes suck</li>
+                                <li>taboo oo</li>
+                                <li>classes as syntactic sugar</li>
+                                <li>better keyboards</li>
+                                <li>ideal computer</li>
+                                <li>assignment</li>
+                                <li>language</li>
+                                <li>dcvs</li>
+                                <li>is fp feasible</li>
+                                <li>does oo sucks</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-open">
+                            <a data-toggle="collapse" href="#projects-body">
+                                projects/
+                            </a>
+                        </div>
+                        <div class="panel-body collapse" id="projects-body">
+                            <ul>
+                                <li>Sit amet nulla facilisi morbi</li>
+                                <li>tempus iaculis urna, id volutpat</li>
+                                <li>lacus laoreet non curabitur gravida</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-open">
+                            <a data-toggle="collapse" href="#tutorials-body">
+                                tutorials/
+                            </a>
+                            
+                        </div>
+                        <div class="panel-body collapse" id="tutorials-body">
+                            <ul>
+                                <li>Tincidunt augue interdum velit</li>
+                                <li>euismod in pellentesque massa</li>
+                                <li>placerat duis ultricies lacus</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-open">
+                            <a data-toggle="collapse" href="#contact-me-body">
+                                contact me
+                            </a>                            
+                        </div>
+                        <div class="panel-body collapse" id="contact-me-body">
+                            <ul>
+                                <li>Quam elementum pulvinar etiam</li>
+                                <li>non quam lacus suspendisse!</li>
+                                <li>A, condimentum vitae sapien</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-8"  id="essay">
+                    <h1>My essays</h1>
+                    <p>My last posts depend on each other, and should be read in
+                        sequence. Articles not in bold are optional.</p>
+                    <ul>
+                        <li><a href="">Assignment Statement Considered Harmful</a>. 
+                            Pervasive mutable state make prgrams more
+                            difficult to deal with. While this is old news, most
+                            programmers don't know or don't care. It's a pitty,
+                            because <a href="">simple remedies</a> exist.</li>
+                        <li><a href="">Defining Syntatic Sugar</a>. 
+                            I sometimes
+                            hear arguments about what is or is not syntactic
+                            sugar. This is an attempt at defining it.</li>
+                        <li><a href="">Class-based Programming as Syntactic Sugar</a>. 
+                            Most of the time, "Object Oriented" actually
+                            mean classes. Classes are nothing more than syntactic
+                            sugar, at least in statically typed languages such as Java
+                            and C++. sugar is not useless, but seeing past it helps us
+                            understand classes better.</li>
+                        <li><a href="">Taboo "OO"</a>. 
+                            The term "OO" is so
+                            overloaded that we should stop using it. Better subsitutes
+                            are "classes" and "prototypes".</li>
+                        <li><a href="">How Class based Programming Suck</a>. 
+                            Classes are vastly sub-optimal. Functional
+                            programming is far better.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div id="footer">
+                <p>Contact, suggestions: Send me an email at <a href="">l@loup-vaillant.fr</a>
+                    <br/>
+                    Built with <a href="">USSM</a>
+                </p>
+            </div>
+            
+        </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>

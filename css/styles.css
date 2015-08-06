@@ -1,0 +1,81 @@
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    /* Styles here */
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Styles here */
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    /* Styles here */
+
+    * {
+        font-family: serif;
+    }
+    
+    .container {
+        background-color: #F5F5F5;
+    }
+    
+    .container > h1 {
+        background-color: #EEEEEE;
+        border-radius: 0.5em;
+        margin: 0.5em 0em;
+        padding: 0.5em;
+    }
+
+    .container > .row {
+        padding-left: 1em;
+        padding-top: 1em;
+    }
+    
+    #side-bar {
+        /* display: inline-block; */
+        background-color: #AAAAAA;
+    }
+    
+    #side-bar {
+        border-radius: 2em;
+    }
+
+    #side-bar .panel {
+        margin-bottom: 0.25em;
+    }
+
+    #side-bar .panel:nth-last-child(1) {
+        margin-bottom: 1.5em;
+    }
+    
+    #side-bar a:link, a:hover, a:active {
+                                   text-decoration: none;
+                               }
+    
+    #essay {
+        border-radius: 1.5em;
+        margin-left:2em;
+        margin-right:0em;
+        margin-bottom: 2em;
+        padding-right:0em;
+        background-color: #ACACAC;
+    }
+
+    #essay p {
+        font-size:1.5em;
+    }
+    
+    #essay li {
+        margin-bottom:1em;
+        font-size:1.05em;
+    }
+
+    #footer {
+        background-color:lightgrey;
+        border-radius: 1em;
+        padding: 0.5em 1.5em;
+        font-size:1.2em;
+    }
+    
+}
